@@ -257,6 +257,14 @@ h2.light { color: var(--white); }
 }
 .project-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
 
+.project-logo {
+  width: 100%;
+  max-height: 64px;
+  object-fit: contain;
+  object-position: left;
+  margin-bottom: 16px;
+}
+
 .project-tag {
   display: inline-block; margin-bottom: 16px;
   font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em;
