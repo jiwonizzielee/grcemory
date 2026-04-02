@@ -38,7 +38,7 @@ body { font-family: var(--font); color: var(--text); background: var(--white); l
 }
 
 .logo-img {
-  height: 38px;
+  height: 52px;
   width: auto;
   display: block;
 }
@@ -65,10 +65,38 @@ body { font-family: var(--font); color: var(--text); background: var(--white); l
 /* ─── HERO ───────────────────────────────────────────── */
 .hero {
   min-height: 100vh;
-  display: flex; flex-direction: column; justify-content: center;
+  display: flex; align-items: center;
   padding: 120px 6% 80px;
   background: var(--white);
   border-bottom: 1px solid var(--border);
+}
+
+.hero-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-right {
+  display: flex;
+  align-items: center;
+}
+
+.hero-photo {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  max-height: 480px;
+  box-shadow: var(--shadow-md);
 }
 
 .hero-eyebrow {
@@ -251,6 +279,30 @@ h2.light { color: var(--white); }
 }
 .project-client { color: var(--text-muted); font-weight: 500; }
 .project-year { color: var(--mint); font-weight: 700; }
+
+/* ─── VALUES ──────────────────────────────────────────── */
+.values-blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 760px;
+}
+
+.value-block p {
+  font-size: 1.05rem;
+  color: var(--text);
+  line-height: 1.8;
+}
+
+/* ─── GROUP PHOTO ─────────────────────────────────────── */
+.group-photo {
+  width: 100%;
+  border-radius: var(--radius);
+  display: block;
+  object-fit: cover;
+  max-height: 520px;
+  box-shadow: var(--shadow-md);
+}
 
 /* ─── CONTACT ─────────────────────────────────────────── */
 .contact-grid {
