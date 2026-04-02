@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>GRC | Global Research & Consulting Group at Emory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -11,24 +14,11 @@
   <!-- NAV -->
   <nav class="navbar">
     <div class="nav-brand">
-      <div class="logo-mark">
-        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="24" cy="24" r="22" stroke="#002147" stroke-width="2.5"/>
-          <path d="M8 24 Q16 10 24 24 Q32 38 40 24" stroke="#002147" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-          <path d="M8 24 Q16 38 24 24 Q32 10 40 24" stroke="#C5A028" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.8"/>
-          <line x1="24" y1="2" x2="24" y2="46" stroke="#002147" stroke-width="1.5" opacity="0.4"/>
-          <line x1="2" y1="24" x2="46" y2="24" stroke="#002147" stroke-width="1.5" opacity="0.4"/>
-        </svg>
-      </div>
-      <div class="brand-text">
-        <span class="brand-grc">GRC</span>
-        <span class="brand-sub">at Emory</span>
-      </div>
+      <img src="logo.png" alt="GRC Global Research and Consulting Group" class="logo-img">
     </div>
     <ul class="nav-links">
-      <li><a href="#mission">Mission</a></li>
-      <li><a href="#board">Leadership</a></li>
-      <li><a href="#analysts">Analysts</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#team">Team</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact" class="nav-cta">Join Us</a></li>
     </ul>
@@ -38,346 +28,162 @@
   <!-- HERO -->
   <header class="hero">
     <div class="hero-content">
-      <div class="hero-logo">
-        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="40" cy="40" r="37" stroke="white" stroke-width="2.5" opacity="0.9"/>
-          <path d="M10 40 Q22 16 40 40 Q58 64 70 40" stroke="white" stroke-width="3" fill="none" stroke-linecap="round"/>
-          <path d="M10 40 Q22 64 40 40 Q58 16 70 40" stroke="#C5A028" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-          <line x1="40" y1="3" x2="40" y2="77" stroke="white" stroke-width="1.5" opacity="0.5"/>
-          <line x1="3" y1="40" x2="77" y2="40" stroke="white" stroke-width="1.5" opacity="0.5"/>
-          <circle cx="40" cy="40" r="4" fill="#C5A028"/>
-        </svg>
-      </div>
-      <p class="hero-eyebrow">Global Research & Consulting Group</p>
-      <h1 class="hero-title">Solving Real Problems<br/>for Real Organizations</h1>
-      <p class="hero-desc">GRC at Emory is a student-led consulting group that partners with nonprofits, startups, and global organizations to deliver data-driven insights and strategic recommendations.</p>
+      <p class="hero-eyebrow">Emory University &mdash; Atlanta, GA</p>
+      <h1>Research & Consulting<br>for a Better World</h1>
+      <p class="hero-desc">Transforming Global Communities: Pro-bono Consulting for Social Good</p>
       <div class="hero-actions">
-        <a href="#projects" class="btn btn-primary">View Our Work</a>
-        <a href="#mission" class="btn btn-ghost">Our Mission</a>
+        <a href="#projects" class="btn btn-primary">See Our Work</a>
+        <a href="#contact" class="btn btn-outline">Get Involved</a>
       </div>
     </div>
-    <div class="hero-visual">
-      <div class="globe-ring ring-1"></div>
-      <div class="globe-ring ring-2"></div>
-      <div class="globe-ring ring-3"></div>
-      <div class="stat-card card-a">
-        <span class="stat-num">40+</span>
-        <span class="stat-label">Members</span>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-num">[placeholder]</span>
+        <span class="stat-label">Projects Completed</span>
       </div>
-      <div class="stat-card card-b">
-        <span class="stat-num">12</span>
-        <span class="stat-label">Projects</span>
+      <div class="stat">
+        <span class="stat-num">[placeholder]</span>
+        <span class="stat-label">Active Members</span>
       </div>
-      <div class="stat-card card-c">
-        <span class="stat-num">8</span>
-        <span class="stat-label">Partners</span>
+      <div class="stat">
+        <span class="stat-num">[placeholder]</span>
+        <span class="stat-label">Partner Organizations</span>
       </div>
     </div>
   </header>
 
-  <!-- MISSION -->
-  <section class="section" id="mission">
+  <!-- ABOUT -->
+  <section class="section" id="about">
     <div class="container">
-      <div class="section-label">Who We Are</div>
-      <h2 class="section-title">Our Mission</h2>
-      <div class="mission-grid">
-        <div class="mission-statement">
-          <p class="mission-lead">GRC bridges the gap between academic theory and real-world impact. We equip Emory students with the skills, network, and experience to tackle complex global challenges.</p>
-          <p class="mission-body">Founded at Emory University, GRC is dedicated to fostering the next generation of global thinkers and problem-solvers. Through rigorous research, collaborative consulting engagements, and continuous professional development, our members gain hands-on experience working with clients across sectors and geographies.</p>
+      <p class="overline">What We Do</p>
+      <h2>Rigorous research.<br>Actionable consulting.</h2>
+      <p class="section-intro">We combine academic rigor with real-world impact, helping organizations solve complex challenges across sectors and geographies.</p>
+      <div class="pillars">
+        <div class="pillar">
+          <div class="pillar-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+            </svg>
+          </div>
+          <h3>Research & Analysis</h3>
+          <p>We conduct rigorous research combining data analysis, literature reviews, and field work to uncover insights and identify solutions.</p>
         </div>
-        <div class="mission-pillars">
-          <div class="pillar">
-            <div class="pillar-icon">
-              <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="#002147" stroke-width="2"/><path d="M8 16 Q12 8 16 16 Q20 24 24 16" stroke="#002147" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
-            </div>
-            <h3>Global Perspective</h3>
-            <p>We approach every challenge with an international lens, drawing on diverse viewpoints and cross-cultural expertise.</p>
+        <div class="pillar">
+          <div class="pillar-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/>
+            </svg>
           </div>
-          <div class="pillar">
-            <div class="pillar-icon">
-              <svg viewBox="0 0 32 32" fill="none"><rect x="4" y="10" width="24" height="16" rx="2" stroke="#002147" stroke-width="2"/><path d="M10 10V8a6 6 0 0112 0v2" stroke="#002147" stroke-width="2" stroke-linecap="round"/></svg>
-            </div>
-            <h3>Rigorous Research</h3>
-            <p>Our deliverables are backed by thorough data analysis, literature review, and structured frameworks.</p>
+          <h3>Strategic Consulting</h3>
+          <p>From market entry strategies to policy briefs, we deliver actionable recommendations that clients can implement immediately.</p>
+        </div>
+        <div class="pillar">
+          <div class="pillar-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/>
+            </svg>
           </div>
-          <div class="pillar">
-            <div class="pillar-icon">
-              <svg viewBox="0 0 32 32" fill="none"><circle cx="10" cy="14" r="5" stroke="#002147" stroke-width="2"/><circle cx="22" cy="14" r="5" stroke="#002147" stroke-width="2"/><path d="M4 26c0-3.314 2.686-6 6-6h12c3.314 0 6 2.686 6 6" stroke="#002147" stroke-width="2" stroke-linecap="round"/></svg>
-            </div>
-            <h3>Collaborative Culture</h3>
-            <p>We believe the best solutions emerge from teams that value every voice, background, and discipline.</p>
-          </div>
-          <div class="pillar">
-            <div class="pillar-icon">
-              <svg viewBox="0 0 32 32" fill="none"><path d="M16 4l3.09 6.26L26 11.27l-5 4.87 1.18 6.86L16 20.77l-6.18 3.23L11 17.14 6 12.27l6.91-1.01L16 4z" stroke="#002147" stroke-width="2" stroke-linejoin="round"/></svg>
-            </div>
-            <h3>Tangible Impact</h3>
-            <p>Our work produces actionable recommendations that clients can implement — real change, not theoretical exercises.</p>
-          </div>
+          <h3>Global Impact</h3>
+          <p>We work with nonprofits, startups, governments, and development organizations across multiple sectors and geographies.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- EXECUTIVE BOARD -->
-  <section class="section section-alt" id="board">
+  <!-- TEAM -->
+  <section class="section section-tint" id="team">
     <div class="container">
-      <div class="section-label">Leadership</div>
-      <h2 class="section-title">Executive Board</h2>
-      <p class="section-desc">Our executive board guides GRC's strategy, partnerships, and member experience.</p>
-      <div class="board-grid">
-
-        <div class="board-card president">
-          <div class="member-avatar">
-            <div class="avatar-placeholder" style="background: linear-gradient(135deg, #002147, #1a4a7a);">
-              <span>JL</span>
-            </div>
-          </div>
-          <div class="member-info">
-            <h3>Jiwon Lee</h3>
-            <span class="member-role">President</span>
-            <p class="member-major">Economics & Computer Science, '26</p>
-            <p class="member-bio">Leading GRC's strategic vision and overseeing all consulting engagements and internal operations.</p>
-          </div>
+      <p class="overline">Our Team</p>
+      <h2>Driven by students,<br>guided by purpose.</h2>
+      <p class="section-intro">Passionate Emory students working on real global challenges.</p>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-avatar">JL</div>
+          <div class="team-role">Co-President</div>
+          <h3>Alice Kim</h3>
+          <p>Economics & Computer Science, '26</p>
         </div>
-
-        <div class="board-card">
-          <div class="member-avatar">
-            <div class="avatar-placeholder" style="background: linear-gradient(135deg, #1a4a7a, #2d6ea8);">
-              <span>AK</span>
-            </div>
-          </div>
-          <div class="member-info">
-            <h3>Alex Kim</h3>
-            <span class="member-role">Vice President</span>
-            <p class="member-major">Business Administration, '26</p>
-            <p class="member-bio">Manages recruitment, member development, and coordinates with project leads across all active engagements.</p>
-          </div>
+        <div class="team-card">
+          <div class="team-avatar">SM</div>
+          <div class="team-role">Director of Research</div>
+          <h3>Sofia Martinez</h3>
+          <p>Global Health & Biology, '25</p>
         </div>
-
-        <div class="board-card">
-          <div class="member-avatar">
-            <div class="avatar-placeholder" style="background: linear-gradient(135deg, #C5A028, #d4af37);">
-              <span>SM</span>
-            </div>
-          </div>
-          <div class="member-info">
-            <h3>Sofia Martinez</h3>
-            <span class="member-role">Director of Research</span>
-            <p class="member-major">Global Health & Biology, '25</p>
-            <p class="member-bio">Oversees research methodology, quality standards, and leads our global health practice area.</p>
-          </div>
-        </div>
-
-        <div class="board-card">
-          <div class="member-avatar">
-            <div class="avatar-placeholder" style="background: linear-gradient(135deg, #2d6ea8, #4a8ec4);">
-              <span>DP</span>
-            </div>
-          </div>
-          <div class="member-info">
-            <h3>David Park</h3>
-            <span class="member-role">Director of Operations</span>
-            <p class="member-major">Finance & Math, '26</p>
-            <p class="member-bio">Manages client relationships, project timelines, and internal processes to keep GRC running smoothly.</p>
-          </div>
-        </div>
-
-        <div class="board-card">
-          <div class="member-avatar">
-            <div class="avatar-placeholder" style="background: linear-gradient(135deg, #4a1a6e, #7a3aae);">
-              <span>NW</span>
-            </div>
-          </div>
-          <div class="member-info">
-            <h3>Naomi Williams</h3>
-            <span class="member-role">Director of Marketing</span>
-            <p class="member-major">Communications & Psychology, '27</p>
-            <p class="member-bio">Leads GRC's brand identity, social media presence, and internal communications strategy.</p>
-          </div>
-        </div>
-
-        <div class="board-card">
-          <div class="member-avatar">
-            <div class="avatar-placeholder" style="background: linear-gradient(135deg, #1a6e4a, #3aae7a);">
-              <span>RC</span>
-            </div>
-          </div>
-          <div class="member-info">
-            <h3>Ryan Chen</h3>
-            <span class="member-role">Director of Finance</span>
-            <p class="member-major">Accounting & Economics, '26</p>
-            <p class="member-bio">Manages GRC's budget, funding applications, and financial partnerships with Emory administration.</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ANALYSTS -->
-  <section class="section" id="analysts">
-    <div class="container">
-      <div class="section-label">Our Team</div>
-      <h2 class="section-title">Analysts</h2>
-      <p class="section-desc">Our analysts are the backbone of every engagement — curious, driven students from across Emory's schools and majors.</p>
-
-      <div class="analyst-filter">
-        <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="class-25">Class of '25</button>
-        <button class="filter-btn" data-filter="class-26">Class of '26</button>
-        <button class="filter-btn" data-filter="class-27">Class of '27</button>
-        <button class="filter-btn" data-filter="class-28">Class of '28</button>
-      </div>
-
-      <div class="analysts-grid">
-        <div class="analyst-card" data-class="class-26">
-          <div class="analyst-avatar" style="background: linear-gradient(135deg, #002147, #2d6ea8);"><span>EP</span></div>
-          <div class="analyst-name">Emma Peterson</div>
-          <div class="analyst-details">Neuroscience & Pre-Med · '26</div>
-        </div>
-        <div class="analyst-card" data-class="class-27">
-          <div class="analyst-avatar" style="background: linear-gradient(135deg, #6e1a4a, #ae3a7a);"><span>LT</span></div>
-          <div class="analyst-name">Liam Torres</div>
-          <div class="analyst-details">International Studies · '27</div>
-        </div>
-        <div class="analyst-card" data-class="class-28">
-          <div class="analyst-avatar" style="background: linear-gradient(135deg, #1a4a6e, #3a7aae);"><span>PJ</span></div>
-          <div class="analyst-name">Priya Johnson</div>
-          <div class="analyst-details">Economics & Data Science · '28</div>
-        </div>
-        <div class="analyst-card" data-class="class-26">
-          <div class="analyst-avatar" style="background: linear-gradient(135deg, #2d4a1a, #5a8a3a);"><span>MN</span></div>
-          <div class="analyst-name">Marcus Nguyen</div>
-          <div class="analyst-details">Business & Sociology · '26</div>
-        </div>
-        <div class="analyst-card" data-class="class-25">
-          <div class="analyst-avatar" style="background: linear-gradient(135deg, #4a2d1a, #8a5a3a);"><span>CS</span></div>
-          <div class="analyst-name">Clara Singh</div>
-          <div class="analyst-details">Political Science & Law · '25</div>
-        </div>
-        <div class="analyst-card" data-class="class-27">
-          <div class="analyst-avatar" style="background: linear-gradient(135deg, #1a2d4a, #3a5a8a);"><span>JO</span></div>
-          <div class="analyst-name">James O'Brien</div>
-          <div class="analyst-details">Finance & Math · '27</div>
-        </div>
-        <div class="analyst-card" data-class="class-28">
-          <div class="analyst-avatar" style="background: linear-gradient(135deg, #4a1a2d, #8a3a5a);"><span>AZ</span></div>
-          <div class="analyst-name">Aisha Zhao</div>
-          <div class="analyst-details">Global Health · '28</div>
-        </div>
-        <div class="analyst-card" data-class="class-26">
-          <div class="analyst-avatar" style="background: linear-gradient(135deg, #2d1a4a, #5a3a8a);"><span>BK</span></div>
-          <div class="analyst-name">Ben Kim</div>
-          <div class="analyst-details">Computer Science & Economics · '26</div>
-        </div>
-        <div class="analyst-card" data-class="class-27">
-          <div class="analyst-avatar" style="background: linear-gradient(135deg, #1a4a4a, #3a8a8a);"><span>TR</span></div>
-          <div class="analyst-name">Tanya Rivera</div>
-          <div class="analyst-details">Psychology & Neuroscience · '27</div>
-        </div>
-        <div class="analyst-card" data-class="class-25">
-          <div class="analyst-avatar" style="background: linear-gradient(135deg, #4a4a1a, #8a8a3a);"><span>OA</span></div>
-          <div class="analyst-name">Omar Al-Hassan</div>
-          <div class="analyst-details">Economics & Arabic · '25</div>
-        </div>
-        <div class="analyst-card" data-class="class-28">
-          <div class="analyst-avatar" style="background: linear-gradient(135deg, #002147, #C5A028);"><span>GF</span></div>
-          <div class="analyst-name">Grace Foster</div>
-          <div class="analyst-details">Biology & Pre-Med · '28</div>
-        </div>
-        <div class="analyst-card" data-class="class-26">
-          <div class="analyst-avatar" style="background: linear-gradient(135deg, #1a6e6e, #3aaaaa);"><span>KL</span></div>
-          <div class="analyst-name">Kevin Le</div>
-          <div class="analyst-details">Statistics & CS · '26</div>
+        <div class="team-card">
+          <div class="team-avatar">DP</div>
+          <div class="team-role">Director of Operations</div>
+          <h3>David Park</h3>
+          <p>Finance & Math, '26</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- PROJECTS -->
-  <section class="section section-alt" id="projects">
+  <section class="section" id="projects">
     <div class="container">
-      <div class="section-label">Our Work</div>
-      <h2 class="section-title">Projects</h2>
-      <p class="section-desc">We partner with organizations to deliver rigorous, actionable consulting work across a range of sectors.</p>
+      <p class="overline">Our Work</p>
+      <h2>Projects</h2>
+      <p class="section-intro">We partner with organizations to deliver rigorous, actionable work across a range of sectors.</p>
       <div class="projects-grid">
 
-        <div class="project-card featured">
-          <div class="project-tag">Global Health</div>
+        <div class="project-card">
+          <span class="project-tag">Global Health</span>
           <h3>Maternal Health Access in Sub-Saharan Africa</h3>
           <p>Partnered with a WHO-affiliated NGO to analyze healthcare access barriers and recommend policy interventions across three countries.</p>
-          <div class="project-meta">
+          <div class="project-footer">
             <span class="project-client">NGO Partner</span>
             <span class="project-year">2024–2025</span>
           </div>
-          <div class="project-skills">
-            <span>Data Analysis</span><span>Policy Research</span><span>Field Interviews</span>
-          </div>
         </div>
 
         <div class="project-card">
-          <div class="project-tag">Strategy</div>
+          <span class="project-tag">Strategy</span>
           <h3>Market Entry Strategy for EdTech Startup</h3>
           <p>Developed a go-to-market strategy for an Atlanta-based EdTech company expanding into Southeast Asian markets.</p>
-          <div class="project-meta">
+          <div class="project-footer">
             <span class="project-client">Startup</span>
             <span class="project-year">2024</span>
           </div>
-          <div class="project-skills">
-            <span>Market Research</span><span>Financial Modeling</span>
-          </div>
         </div>
 
         <div class="project-card">
-          <div class="project-tag">Nonprofit</div>
+          <span class="project-tag">Nonprofit</span>
           <h3>Fundraising Optimization for Atlanta Food Bank</h3>
           <p>Analyzed donor retention data and proposed a digital fundraising strategy that increased donor engagement by an estimated 30%.</p>
-          <div class="project-meta">
+          <div class="project-footer">
             <span class="project-client">Nonprofit</span>
             <span class="project-year">2024</span>
           </div>
-          <div class="project-skills">
-            <span>Data Analytics</span><span>Donor Strategy</span>
-          </div>
         </div>
 
         <div class="project-card">
-          <div class="project-tag">Policy</div>
+          <span class="project-tag">Policy</span>
           <h3>Climate Policy Brief for State Legislature</h3>
           <p>Produced a comprehensive policy brief on renewable energy incentives for Georgia state legislators, synthesizing research from 50+ sources.</p>
-          <div class="project-meta">
+          <div class="project-footer">
             <span class="project-client">Government</span>
             <span class="project-year">2025</span>
           </div>
-          <div class="project-skills">
-            <span>Policy Analysis</span><span>Literature Review</span>
-          </div>
         </div>
 
         <div class="project-card">
-          <div class="project-tag">Finance</div>
+          <span class="project-tag">Finance</span>
           <h3>Microfinance Impact Assessment in South Asia</h3>
           <p>Evaluated the economic impact of a microfinance program in rural Bangladesh using econometric methods and primary survey data.</p>
-          <div class="project-meta">
+          <div class="project-footer">
             <span class="project-client">Development Org</span>
             <span class="project-year">2025</span>
           </div>
-          <div class="project-skills">
-            <span>Econometrics</span><span>Survey Design</span>
-          </div>
         </div>
 
         <div class="project-card">
-          <div class="project-tag">Operations</div>
+          <span class="project-tag">Operations</span>
           <h3>Supply Chain Resilience for Healthcare Manufacturer</h3>
           <p>Identified supply chain vulnerabilities and developed contingency frameworks for a mid-size medical device manufacturer post-COVID.</p>
-          <div class="project-meta">
+          <div class="project-footer">
             <span class="project-client">Private Sector</span>
             <span class="project-year">2025</span>
-          </div>
-          <div class="project-skills">
-            <span>Operations Research</span><span>Risk Analysis</span>
           </div>
         </div>
 
@@ -388,29 +194,29 @@
   <!-- CONTACT / JOIN -->
   <section class="section section-dark" id="contact">
     <div class="container">
-      <div class="contact-inner">
-        <div class="contact-text">
-          <div class="section-label light">Get Involved</div>
-          <h2 class="section-title light">Join GRC</h2>
-          <p>We recruit Emory students each semester. Whether you're passionate about research, consulting, global affairs, or data — GRC has a place for you.</p>
-          <ul class="contact-details">
+      <div class="contact-grid">
+        <div class="contact-left">
+          <p class="overline light">Get Involved</p>
+          <h2 class="light">Join GRC</h2>
+          <p>We recruit Emory students each semester. Whether you're passionate about research, consulting, global affairs, or data &mdash; GRC has a place for you.</p>
+          <ul class="contact-info">
             <li>
-              <svg viewBox="0 0 20 20" fill="none"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" fill="#C5A028"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" fill="#C5A028"/></svg>
-              <span>grc@emory.edu</span>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/></svg>
+              grc@emory.edu
             </li>
             <li>
-              <svg viewBox="0 0 20 20" fill="none"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" fill="#C5A028"/></svg>
-              <span>Emory University, Atlanta, GA</span>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/></svg>
+              Emory University, Atlanta, GA
             </li>
           </ul>
         </div>
-        <div class="contact-form-wrap">
+        <div class="contact-right">
           <form class="contact-form" onsubmit="handleSubmit(event)">
             <h3>Express Interest</h3>
             <input type="text" placeholder="Full Name" required />
             <input type="email" placeholder="Emory Email" required />
             <input type="text" placeholder="Major & Class Year (e.g. Economics '27)" />
-            <select>
+            <select aria-label="Area of Interest">
               <option value="" disabled selected>Area of Interest</option>
               <option>Research & Analysis</option>
               <option>Strategy & Consulting</option>
@@ -430,22 +236,13 @@
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer-inner">
-      <div class="footer-brand">
-        <div class="logo-mark small">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="22" stroke="white" stroke-width="2.5" opacity="0.7"/>
-            <path d="M8 24 Q16 10 24 24 Q32 38 40 24" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.7"/>
-            <path d="M8 24 Q16 38 24 24 Q32 10 40 24" stroke="#C5A028" stroke-width="2" fill="none" stroke-linecap="round"/>
-          </svg>
-        </div>
-        <span>GRC at Emory</span>
-      </div>
-      <p class="footer-copy">&copy; 2025 Global Research & Consulting Group at Emory University. All rights reserved.</p>
+      <span class="footer-brand">GRC at Emory</span>
+      <p class="footer-copy">&copy; 2025 Global Research & Consulting Group at Emory University</p>
       <div class="footer-links">
-        <a href="#mission">Mission</a>
-        <a href="#board">Leadership</a>
-        <a href="#analysts">Analysts</a>
+        <a href="#about">About</a>
+        <a href="#team">Team</a>
         <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
       </div>
     </div>
   </footer>
